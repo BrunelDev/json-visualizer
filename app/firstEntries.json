@@ -16,7 +16,8 @@
     "clientFirstName": "Jean",
     "clientLastName": "Dupont",
     "clientPhone": "+33612345678",
-    "clientEmail": "jean.dupont@email.fr"
+    "clientEmail": "jean.dupont@email.fr",
+    "pdfUrl": "/pdf/devis-001.pdf"
   },
   {
     "option": "permis-construire",
@@ -35,7 +36,8 @@
     "clientFirstName": "Marie",
     "clientLastName": "Martin",
     "clientPhone": "+33698765432",
-    "clientEmail": "marie.martin@gmail.com"
+    "clientEmail": "marie.martin@gmail.com",
+    "pdfUrl": "/pdf/devis-001(22).pdf"
   },
   {
     "option": "permis-construire",
@@ -53,7 +55,8 @@
     "clientFirstName": "Pierre",
     "clientLastName": "Dubois",
     "clientPhone": "+33645678901",
-    "clientEmail": "p.dubois@outlook.fr"
+    "clientEmail": "p.dubois@outlook.fr",
+    "pdfUrl": "/pdf/devis-001 (2).pdf"
   },
   {
     "option": "declaration-prealable",
@@ -75,7 +78,8 @@
     "clientFirstName": "Sophie",
     "clientLastName": "Bernard",
     "clientPhone": "+33623456789",
-    "clientEmail": "sophie.bernard@yahoo.fr"
+    "clientEmail": "sophie.bernard@yahoo.fr",
+    "pdfUrl": "/pdf/devis-001 (3).pdf"
   },
   {
     "option": "declaration-prealable",
@@ -97,7 +101,8 @@
     "clientFirstName": "Luc",
     "clientLastName": "Lefebvre",
     "clientPhone": "+33634567890",
-    "clientEmail": "luc.lefebvre@laposte.net"
+    "clientEmail": "luc.lefebvre@laposte.net",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "declaration-prealable",
@@ -118,7 +123,8 @@
     "clientFirstName": "Claire",
     "clientLastName": "Moreau",
     "clientPhone": "+33656789012",
-    "clientEmail": "claire.moreau@free.fr"
+    "clientEmail": "claire.moreau@free.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "dossier-erp",
@@ -135,7 +141,8 @@
     "clientFirstName": "Thomas",
     "clientLastName": "Petit",
     "clientPhone": "+33667890123",
-    "clientEmail": "thomas.petit@orange.fr"
+    "clientEmail": "thomas.petit@orange.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "dossier-erp",
@@ -152,7 +159,8 @@
     "clientFirstName": "Amélie",
     "clientLastName": "Roux",
     "clientPhone": "+33678901234",
-    "clientEmail": "amelie.roux@hotmail.com"
+    "clientEmail": "amelie.roux@hotmail.com",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "dossier-erp",
@@ -168,7 +176,8 @@
     "clientFirstName": "Nicolas",
     "clientLastName": "Garnier",
     "clientPhone": "+33689012345",
-    "clientEmail": "n.garnier@gmail.com"
+    "clientEmail": "n.garnier@gmail.com",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "certificat-urbanisme",
@@ -182,7 +191,8 @@
     "clientFirstName": "Isabelle",
     "clientLastName": "David",
     "clientPhone": "+33690123456",
-    "clientEmail": "isabelle.david@sfr.fr"
+    "clientEmail": "isabelle.david@sfr.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "certificat-urbanisme",
@@ -196,7 +206,8 @@
     "clientFirstName": "Laurent",
     "clientLastName": "Simon",
     "clientPhone": "+33601234567",
-    "clientEmail": "laurent.simon@wanadoo.fr"
+    "clientEmail": "laurent.simon@wanadoo.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "certificat-urbanisme",
@@ -209,7 +220,8 @@
     "clientFirstName": "Céline",
     "clientLastName": "Laurent",
     "clientPhone": "+33612345098",
-    "clientEmail": "celine.laurent@bbox.fr"
+    "clientEmail": "celine.laurent@bbox.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "plan-unite",
@@ -228,7 +240,8 @@
     "clientFirstName": "Julien",
     "clientLastName": "Blanc",
     "clientPhone": "+33623456098",
-    "clientEmail": "julien.blanc@live.fr"
+    "clientEmail": "julien.blanc@live.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "plan-unite",
@@ -247,7 +260,8 @@
     "clientFirstName": "Nathalie",
     "clientLastName": "Girard",
     "clientPhone": "+33634567098",
-    "clientEmail": "nathalie.girard@numericable.fr"
+    "clientEmail": "nathalie.girard@numericable.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "plan-unite",
@@ -265,7 +279,8 @@
     "clientFirstName": "Vincent",
     "clientLastName": "Morel",
     "clientPhone": "+33645678098",
-    "clientEmail": "vincent.morel@club-internet.fr"
+    "clientEmail": "vincent.morel@club-internet.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "etude-re2020",
@@ -276,7 +291,8 @@
     "clientFirstName": "Sandrine",
     "clientLastName": "Fontaine",
     "clientPhone": "+33656789098",
-    "clientEmail": "sandrine.fontaine@gmail.com"
+    "clientEmail": "sandrine.fontaine@gmail.com",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "etude-re2020",
@@ -287,7 +303,8 @@
     "clientFirstName": "Olivier",
     "clientLastName": "Chevalier",
     "clientPhone": "+33667890098",
-    "clientEmail": "olivier.chevalier@yahoo.fr"
+    "clientEmail": "olivier.chevalier@yahoo.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "etude-re2020",
@@ -297,7 +314,8 @@
     "clientFirstName": "Émilie",
     "clientLastName": "Gauthier",
     "clientPhone": "+33678901098",
-    "clientEmail": "emilie.gauthier@outlook.com"
+    "clientEmail": "emilie.gauthier@outlook.com",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "etude-sismique",
@@ -308,7 +326,8 @@
     "clientFirstName": "Maxime",
     "clientLastName": "Perrin",
     "clientPhone": "+33689012098",
-    "clientEmail": "maxime.perrin@laposte.net"
+    "clientEmail": "maxime.perrin@laposte.net",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "etude-sismique",
@@ -319,7 +338,8 @@
     "clientFirstName": "Valérie",
     "clientLastName": "Rousseau",
     "clientPhone": "+33690123098",
-    "clientEmail": "valerie.rousseau@free.fr"
+    "clientEmail": "valerie.rousseau@free.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "etude-sismique",
@@ -329,7 +349,8 @@
     "clientFirstName": "Christophe",
     "clientLastName": "Mercier",
     "clientPhone": "+33601234098",
-    "clientEmail": "christophe.mercier@orange.fr"
+    "clientEmail": "christophe.mercier@orange.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "aide-conception",
@@ -346,7 +367,8 @@
     "clientFirstName": "Stéphanie",
     "clientLastName": "Lambert",
     "clientPhone": "+33612345987",
-    "clientEmail": "stephanie.lambert@hotmail.fr"
+    "clientEmail": "stephanie.lambert@hotmail.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "aide-conception",
@@ -363,7 +385,8 @@
     "clientFirstName": "Frédéric",
     "clientLastName": "Bonnet",
     "clientPhone": "+33623456987",
-    "clientEmail": "frederic.bonnet@sfr.fr"
+    "clientEmail": "frederic.bonnet@sfr.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "aide-conception",
@@ -379,7 +402,8 @@
     "clientFirstName": "Caroline",
     "clientLastName": "Fournier",
     "clientPhone": "+33634567987",
-    "clientEmail": "caroline.fournier@wanadoo.fr"
+    "clientEmail": "caroline.fournier@wanadoo.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "permis-construire",
@@ -411,7 +435,8 @@
     "clientFirstName": "Jean",
     "clientLastName": "Dupont",
     "clientPhone": "+33612345678",
-    "clientEmail": "jean.dupont@email.fr"
+    "clientEmail": "jean.dupont@email.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "permis-construire",
@@ -443,7 +468,8 @@
     "clientFirstName": "Marie",
     "clientLastName": "Martin",
     "clientPhone": "+33698765432",
-    "clientEmail": "marie.martin@gmail.com"
+    "clientEmail": "marie.martin@gmail.com",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "permis-construire",
@@ -474,7 +500,8 @@
     "clientFirstName": "Pierre",
     "clientLastName": "Dubois",
     "clientPhone": "+33645678901",
-    "clientEmail": "p.dubois@outlook.fr"
+    "clientEmail": "p.dubois@outlook.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "declaration-prealable",
@@ -506,7 +533,8 @@
     "clientFirstName": "Sophie",
     "clientLastName": "Bernard",
     "clientPhone": "+33623456789",
-    "clientEmail": "sophie.bernard@yahoo.fr"
+    "clientEmail": "sophie.bernard@yahoo.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "declaration-prealable",
@@ -538,7 +566,8 @@
     "clientFirstName": "Luc",
     "clientLastName": "Lefebvre",
     "clientPhone": "+33634567890",
-    "clientEmail": "luc.lefebvre@laposte.net"
+    "clientEmail": "luc.lefebvre@laposte.net",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "declaration-prealable",
@@ -569,7 +598,8 @@
     "clientFirstName": "Claire",
     "clientLastName": "Moreau",
     "clientPhone": "+33656789012",
-    "clientEmail": "claire.moreau@free.fr"
+    "clientEmail": "claire.moreau@free.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "dossier-erp",
@@ -605,7 +635,8 @@
     "clientFirstName": "Thomas",
     "clientLastName": "Petit",
     "clientPhone": "+33667890123",
-    "clientEmail": "thomas.petit@orange.fr"
+    "clientEmail": "thomas.petit@orange.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "dossier-erp",
@@ -641,7 +672,8 @@
     "clientFirstName": "Amélie",
     "clientLastName": "Roux",
     "clientPhone": "+33678901234",
-    "clientEmail": "amelie.roux@hotmail.com"
+    "clientEmail": "amelie.roux@hotmail.com",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "dossier-erp",
@@ -672,7 +704,8 @@
     "clientFirstName": "Nicolas",
     "clientLastName": "Garnier",
     "clientPhone": "+33689012345",
-    "clientEmail": "n.garnier@gmail.com"
+    "clientEmail": "n.garnier@gmail.com",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "certificat-urbanisme",
@@ -704,7 +737,8 @@
     "clientFirstName": "Isabelle",
     "clientLastName": "David",
     "clientPhone": "+33690123456",
-    "clientEmail": "isabelle.david@sfr.fr"
+    "clientEmail": "isabelle.david@sfr.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "certificat-urbanisme",
@@ -736,7 +770,8 @@
     "clientFirstName": "Laurent",
     "clientLastName": "Simon",
     "clientPhone": "+33601234567",
-    "clientEmail": "laurent.simon@wanadoo.fr"
+    "clientEmail": "laurent.simon@wanadoo.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "certificat-urbanisme",
@@ -767,7 +802,8 @@
     "clientFirstName": "Céline",
     "clientLastName": "Laurent",
     "clientPhone": "+33612345098",
-    "clientEmail": "celine.laurent@bbox.fr"
+    "clientEmail": "celine.laurent@bbox.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "plan-unite",
@@ -799,7 +835,8 @@
     "clientFirstName": "Julien",
     "clientLastName": "Blanc",
     "clientPhone": "+33623456098",
-    "clientEmail": "julien.blanc@live.fr"
+    "clientEmail": "julien.blanc@live.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "plan-unite",
@@ -835,7 +872,8 @@
     "clientFirstName": "Nathalie",
     "clientLastName": "Girard",
     "clientPhone": "+33634567098",
-    "clientEmail": "nathalie.girard@numericable.fr"
+    "clientEmail": "nathalie.girard@numericable.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "plan-unite",
@@ -866,7 +904,8 @@
     "clientFirstName": "Vincent",
     "clientLastName": "Morel",
     "clientPhone": "+33645678098",
-    "clientEmail": "vincent.morel@club-internet.fr"
+    "clientEmail": "vincent.morel@club-internet.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "etude-re2020",
@@ -898,7 +937,8 @@
     "clientFirstName": "Sandrine",
     "clientLastName": "Fontaine",
     "clientPhone": "+33656789098",
-    "clientEmail": "sandrine.fontaine@gmail.com"
+    "clientEmail": "sandrine.fontaine@gmail.com",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "etude-re2020",
@@ -930,7 +970,8 @@
     "clientFirstName": "Olivier",
     "clientLastName": "Chevalier",
     "clientPhone": "+33667890098",
-    "clientEmail": "olivier.chevalier@yahoo.fr"
+    "clientEmail": "olivier.chevalier@yahoo.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "etude-re2020",
@@ -961,7 +1002,8 @@
     "clientFirstName": "Émilie",
     "clientLastName": "Gauthier",
     "clientPhone": "+33678901098",
-    "clientEmail": "emilie.gauthier@outlook.com"
+    "clientEmail": "emilie.gauthier@outlook.com",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "etude-sismique",
@@ -993,7 +1035,8 @@
     "clientFirstName": "Maxime",
     "clientLastName": "Perrin",
     "clientPhone": "+33689012098",
-    "clientEmail": "maxime.perrin@laposte.net"
+    "clientEmail": "maxime.perrin@laposte.net",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "etude-sismique",
@@ -1025,7 +1068,8 @@
     "clientFirstName": "Valérie",
     "clientLastName": "Rousseau",
     "clientPhone": "+33690123098",
-    "clientEmail": "valerie.rousseau@free.fr"
+    "clientEmail": "valerie.rousseau@free.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "etude-sismique",
@@ -1056,7 +1100,8 @@
     "clientFirstName": "Christophe",
     "clientLastName": "Mercier",
     "clientPhone": "+33601234098",
-    "clientEmail": "christophe.mercier@orange.fr"
+    "clientEmail": "christophe.mercier@orange.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "aide-conception",
@@ -1088,7 +1133,8 @@
     "clientFirstName": "Stéphanie",
     "clientLastName": "Lambert",
     "clientPhone": "+33612345987",
-    "clientEmail": "stephanie.lambert@hotmail.fr"
+    "clientEmail": "stephanie.lambert@hotmail.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "aide-conception",
@@ -1120,7 +1166,8 @@
     "clientFirstName": "Frédéric",
     "clientLastName": "Bonnet",
     "clientPhone": "+33623456987",
-    "clientEmail": "frederic.bonnet@sfr.fr"
+    "clientEmail": "frederic.bonnet@sfr.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   },
   {
     "option": "aide-conception",
@@ -1151,6 +1198,7 @@
     "clientFirstName": "Caroline",
     "clientLastName": "Fournier",
     "clientPhone": "+33634567987",
-    "clientEmail": "caroline.fournier@wanadoo.fr"
+    "clientEmail": "caroline.fournier@wanadoo.fr",
+    "pdfUrl": "/pdf/devis-001 (1).pdf"
   }
 ]

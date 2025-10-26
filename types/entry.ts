@@ -31,4 +31,5 @@ export interface Entry {
   clientLastName: string;
   clientPhone: string;
   clientEmail: string;
+  pdfUrl: string;
 }
