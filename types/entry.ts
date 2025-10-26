@@ -1,0 +1,34 @@
+// types/entry.ts
+export interface Entry {
+  id: number;
+  option: string;
+  isStepThreeChecked: boolean;
+  isArchitectNeeded?: boolean;
+  hasMultipleRealizationsOnSameConstructionPermit?: boolean;
+  realizationsOnSameConstructionPermitNumber?: number;
+  cerfaFilling?: boolean;
+  pluVerification?: boolean;
+  rdcPlanVerification?: boolean;
+  rdcPlanNumber?: number;
+  bbioStudy?: boolean;
+  seismicStudy?: boolean;
+  expressDelivery?: boolean;
+  displayPanel?: boolean;
+  hasMultipleRealizationsOnSameDeclaration?: boolean;
+  realizationsOnSameDeclarationNumber?: number;
+  hasMultipleRealizationsOnSameUrbanismCertificate?: boolean;
+  realizationsOnSameUrbanismCertificateNumber?: number;
+  hasMultipleRealizationsOnSamePlanRequest?: boolean;
+  realizationsOnSamePlanRequestNumber?: number;
+  doesNeedPlan?: boolean;
+  neededPlans?: string[];
+  shouldMakeRDCPlan?: boolean;
+  rdcPlanCount?: number;
+  shouldMake3dRender?: boolean;
+  renderCount3d?: number;
+  render3D?: boolean;
+  clientFirstName: string;
+  clientLastName: string;
+  clientPhone: string;
+  clientEmail: string;
+}

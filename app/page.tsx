@@ -1,65 +1,143 @@
-import Image from "next/image";
+import {
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import { Entry } from "@/types/entry";
+import data from "./firstEntries.json";
+
+// Helper function to render cell content, handling undefined values
+const renderCell = (value: any) => {
+  if (value === undefined || value === null) return "-";
+  if (Array.isArray(value)) return value.join(", ");
+  if (typeof value === "boolean") return value ? "Oui" : "Non";
+  return String(value);
+};
+
+// Get all possible keys from all entries
+const getAllKeys = (entries: Entry[]): (keyof Entry)[] => {
+  const keys = new Set<keyof Entry>();
+  entries.forEach((entry) => {
+    (Object.keys(entry) as (keyof Entry)[]).forEach((key) => keys.add(key));
+  });
+  return Array.from(keys);
+};
+
+// Format key for display
+const formatKey = (key: string): string => {
+  // Dictionnaire de traduction pour les clés connues
+  const keyTranslations: { [key: string]: string } = {
+    // Identifiants et informations de base
+    id: "ID",
+    option: "Option choisie",
+    isStepThreeChecked: "Étape 3 validée",
+
+    // Informations client
+    clientFirstName: "Prénom",
+    clientLastName: "Nom",
+    clientPhone: "Téléphone",
+    clientEmail: "Email",
+
+    // Besoin d'architecte
+    isArchitectNeeded: "Architecte nécessaire",
+
+    // Permis de construire
+    hasMultipleRealizationsOnSameConstructionPermit:
+      "Plusieurs réalisations (même permis)",
+    realizationsOnSameConstructionPermitNumber: "Nombre réalisations (permis)",
+
+    // Déclaration préalable
+    hasMultipleRealizationsOnSameDeclaration:
+      "Plusieurs réalisations (même déclaration)",
+    realizationsOnSameDeclarationNumber: "Nombre réalisations (déclaration)",
+
+    // Certificat d'urbanisme
+    hasMultipleRealizationsOnSameUrbanismCertificate:
+      "Plusieurs réalisations (même certificat)",
+    realizationsOnSameUrbanismCertificateNumber:
+      "Nombre réalisations (certificat)",
+
+    // Plan unité
+    hasMultipleRealizationsOnSamePlanRequest:
+      "Plusieurs réalisations (même demande plan)",
+    realizationsOnSamePlanRequestNumber: "Nombre réalisations (demande plan)",
+
+    // Services administratifs
+    cerfaFilling: "Remplissage CERFA",
+    pluVerification: "Vérification PLU",
+    displayPanel: "Panneau d'affichage",
+    expressDelivery: "Livraison express",
+
+    // Plans RDC
+    rdcPlanVerification: "Vérification plan RDC",
+    rdcPlanNumber: "Numéro plan RDC",
+    shouldMakeRDCPlan: "Créer plan RDC",
+    rdcPlanCount: "Nombre de plans RDC",
+
+    // Études techniques
+    bbioStudy: "Étude BBIO",
+    seismicStudy: "Étude sismique",
+
+    // Plans et rendus
+    doesNeedPlan: "Besoin de plans",
+    neededPlans: "Plans nécessaires",
+    shouldMake3dRender: "Créer rendu 3D",
+    render3D: "Rendu 3D",
+    renderCount3d: "Nombre de rendus 3D",
+  };
+
+  // Si la clé est dans notre dictionnaire, retourner la traduction
+  if (keyTranslations[key]) {
+    return keyTranslations[key];
+  }
+
+  // Sinon, appliquer le formatage par défaut
+  return key
+    .replace(/([A-Z])/g, " $1")
+    .replace(/^./, (str) => str.toUpperCase())
+    .replace(/([a-z])([A-Z])/g, "$1 $2")
+    .replace(/([a-z])([0-9])/g, "$1 $2")
+    .replace(/([0-9])([a-z])/g, "$1 $2")
+    .replace(/_/g, " ")
+    .trim();
+};
 
 export default function Home() {
+  const typedData = data as Entry[];
+  const allKeys = getAllKeys(typedData);
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+    <div className="container m-10 border border-gray-300 rounded-lg shadow-lg overflow-x-auto">
+      <Table>
+        <TableCaption>Liste des 24 entrées de données</TableCaption>
+        <TableHeader>
+          <TableRow>
+            {allKeys.map((key) => (
+              <TableHead
+                key={String(key)}
+                className="whitespace-nowrap font-semibold"
+              >
+                {formatKey(String(key))}
+              </TableHead>
+            ))}
+          </TableRow>
+        </TableHeader>
+        <TableBody>
+          {typedData.map((entry, index) => (
+            <TableRow key={entry.id || index}>
+              {allKeys.map((key) => (
+                <TableCell key={String(key)} className="whitespace-nowrap">
+                  {renderCell(entry[key])}
+                </TableCell>
+              ))}
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
     </div>
   );
 }
