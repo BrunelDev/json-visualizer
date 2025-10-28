@@ -182,13 +182,25 @@ export default function Home() {
                     file={entry.pdfUrl}
                     onLoadSuccess={({ numPages }) => {
                       setNumPages(numPages);
-                      console.log("PDF chargé avec succès");
+                      console.log(
+                        "PDF chargé avec succès, nombre de pages:",
+                        numPages
+                      );
                     }}
                     onLoadError={(error) => {
                       console.error("Erreur de chargement du PDF:", error);
                     }}
                   >
-                    <Page pageNumber={1} width={750} />
+                    {numPages &&
+                      Array.from({ length: numPages }).map((_, index) => (
+                        <Page
+                          pageNumber={index + 1}
+                          width={750}
+                          renderTextLayer={false} 
+                          renderAnnotationLayer={false} 
+                          key={index}
+                        />
+                      ))}
                   </Document>
                 )}
               </DialogContent>
